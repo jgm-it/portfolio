@@ -9,7 +9,7 @@ import { experience } from '../data/portfolio.js'
       id="experience-title"
       number="03"
       label="Where I’ve been"
-      title="Professional experience"
+      title="Work experience"
     />
     <ol class="experience-list">
       <li v-for="item in experience" :key="item.role" class="experience-item">
