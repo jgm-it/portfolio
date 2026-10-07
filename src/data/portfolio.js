@@ -1,6 +1,6 @@
 export const profile = {
   name: 'Jason G. Monsalve',
-  photo: '/profile-photo.jpg',
+  photo: `${import.meta.env.BASE_URL}profile-photo.jpg`,
   title: 'Cloud Technical Support (Tier 1) · Microsoft 365 · Entra ID',
   introduction:
     'Technically skilled and adaptable cloud support professional with hands-on experience supporting MSP-hosted virtual machines, DaaS, and SaaS environments. Experienced in troubleshooting, user provisioning, and Microsoft 365 and Entra ID administration, with a focus on fast, accurate resolutions and customer satisfaction.',
